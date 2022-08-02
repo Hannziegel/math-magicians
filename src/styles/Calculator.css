@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  display: block;
+  padding: 15px 0;
+  width: 100px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.display {
+  padding: 20px;
+  background-color: gray;
+  color: white;
+  text-align: right;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  display: flex;
+}
+
+.numpad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.num-zero {
+  flex-grow: 2;
+}
+
+.mathoperators {
+  display: flex;
+  flex-direction: column;
+}
+
+.mathoperators span {
+  background-color: rgb(252, 114, 64);
+}
