@@ -4,10 +4,10 @@
   padding: 0;
 }
 
-span {
-  display: block;
+button {
   padding: 15px 0;
   width: 100px;
+  border: none;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   background-color: white;
@@ -58,6 +58,6 @@ span {
   flex-direction: column;
 }
 
-.mathoperators span {
+.mathoperators button {
   background-color: rgb(252, 114, 64);
 }
