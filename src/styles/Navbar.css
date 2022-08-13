@@ -1,0 +1,33 @@
+h1 {
+  background: linear-gradient(45deg, var(--var-color-3), var(--var-color-4), var(--var-color-3));
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+
+  /* text-shadow: 0 0 0.3px var(--var-color-5); */
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--var-color-5);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vh 8vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.navBar ul {
+  display: flex;
+  gap: 20px;
+}
